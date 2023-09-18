@@ -1,0 +1,44 @@
+.footer-container {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px; /* Espaciado interno para el contenido del footer */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente el contenido */
+    flex-wrap: wrap;
+}
+
+.contact-info, .social-media {
+    flex-basis: calc(50% - 10px); /* Ancho de las secciones de contacto y redes sociales con un pequeño espacio entre ellas */
+}
+
+/* Estilos para los títulos en el footer */
+h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Estilos para los enlaces de las redes sociales */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Muestra los enlaces uno al lado del otro */
+}
+
+ul li {
+    margin-right: 10px; /* Espacio entre los enlaces de las redes sociales */
+}
+
+ul li:last-child {
+    margin-right: 0; /* Elimina el espacio a la derecha del último enlace */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Efecto de subrayado al pasar el mouse */
+}
